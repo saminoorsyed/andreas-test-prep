@@ -1,2 +1,3 @@
-# landing_page_practice
-practicing putting together a landing page: HTML, CSS with Flexbox.
+# Andrea's test prep website
+
+Starting as a simple informational page, this website will turn into a a full small business website with payment functionality as well as user statistics
