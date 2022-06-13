@@ -30,6 +30,10 @@ a {
     color: whitesmoke;
 }
 
+a:hover {
+    color: #577db9;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -51,16 +55,24 @@ main {
     justify-content: space-around;
     background-color: #1F2937;
     align-items: center;
-    box-shadow: 0 0 0 5px #1F2937;
+    margin-top: 8px;
+    box-shadow: 0 0 0 10px #1F2937;
     padding: 50px 0;
+    gap: 100px;
     
 }
 
 button {
-    background-color: #1F2937;
-    border-radius: 8px;
+    background-color: #3882F6;
+    border-radius: 5px;
     font-size: 15px;
+    border-color: white;
 }
+
+.intro button{
+    border-color: #1F2937;
+}
+
 
 .reach {
     width: 800px;
@@ -73,8 +85,7 @@ button {
     flex: 0 0 auto;
     border-radius: 25%;
     box-shadow: 0 0 5px 5px #5e6962;
-    margin-right: -40px;
-    padding: -50px 0;
+    margin-right: -10px;
 }
 
 .info {
@@ -98,10 +109,10 @@ button {
 }
 
 .card img {
-    height: auto px;
+    height: 200px;
     width: 300px;
     flex: 0 0 auto;
-    border-radius: 10%;
+    border-radius: 10px;
     border-style: solid;
     color:rgb(84, 116, 172);
 }
@@ -115,10 +126,34 @@ button {
     flex-direction: column;
     align-items: center;
     margin: 50px 0;
+    background-color: #E5E7EB;
 }
 
 .testimonials p {
     font-size: 20px;
     width: 1000px;
     flex: 0 1 auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 0 20px;
+    gap: 200px;
+    color: white;
+
+}
+
+.box-text p {
+    width: 500px;
+    margin-top: -10px;
 }
