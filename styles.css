@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    margin: 0 -10px;
 }
 
 
@@ -9,10 +11,15 @@ header{
     justify-content: space-between;
     background-color: #1F2937;
     padding: 0 50px;
+    align-items: center;
 }
 
-h3 {
+h1 {
     color: white;
+}
+
+.intro p {
+    font-size: 18px;
 }
 
 a {
@@ -25,3 +32,38 @@ ul {
     display: flex;
     gap: 20px;
 }
+li {
+    font-size: 22px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+button {
+    background-color: #1F2937;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.profile {
+    height: auto;
+    width: 200px;
+    flex: 0 0 auto;
+    border-radius: 25%;
+    box-shadow: 0 0 5px 5px #5e6962;
+}
+
